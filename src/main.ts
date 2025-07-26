@@ -22,6 +22,16 @@ const createGame = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   createGame();
+  control();
 });
 
 const startGame = () => {};
+
+const control = () => {
+  const player1 = document.querySelector(".player1");
+  console.log(player1);
+
+  player1?.addEventListener("click", () => {
+    console.log("testtest");
+  });
+};
