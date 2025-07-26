@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.gameBoard {
+  border: 5px solid grey;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.player1 {
+  height: 10rem;
+  border: 4px solid blue;
+  position: absolute;
+  left: 3rem;
+}
+
+.player2 {
+  height: 10rem;
+  border: 4px solid blue;
+  position: absolute;
+  right: 3rem;
+}
+
+.ball {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: red;
+  position: absolute;
+  border-radius: 20px;
+}
